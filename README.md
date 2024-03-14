@@ -1,4 +1,4 @@
-# React Logic Components
+# Crispy Logic Components
 
 For no other reason than aesthetics, I truly dislike using `{blah && (<Component />)}` to handle logic during render. As far as I know, that's typically frowned upon anyway. So I wrote this series of components to handle basic logic operations inside of the render function.
 
