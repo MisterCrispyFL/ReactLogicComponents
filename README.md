@@ -9,7 +9,7 @@ A quick and simple hide/show component. Takes a condition boolean. If true, it s
 Example:
 
 ```javascript
-import { ShouldShow } from "react-logic-components";
+import { ShouldShow } from "crispy-logic-components";
 
 <ShouldShow condition={true}>
 	<h2>Shows and hides.</h2>
@@ -23,7 +23,8 @@ It's If/Then/Else but in component form.
 Example:
 
 ```javascript
-import { If } from "react-logic-components";
+import { If } from "crispy-logic-components";
+
 <If condition={true}>
 	<If.Then>
 		<h3>Condition is true.</h3>
@@ -41,7 +42,7 @@ The big one. This is javascript switch but with components instead. Just like no
 Example:
 
 ```javascript
-import { Switch } from "react-logic-components";
+import { Switch } from "crispy-logic-components";
 
 <Switch value="Cat">
 	<Switch.Case value="Cat">

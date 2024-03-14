@@ -1,6 +1,6 @@
 {
 	"name": "crispy-logic-components",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"type": "module",
 	"main": "dist/index.js",
 	"module": "dist/es/index.js",
@@ -8,6 +8,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "rollup -c",
+		"publish": "npm publish",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},
