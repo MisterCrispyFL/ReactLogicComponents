@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"useDefineForClassFields": true,
+		"lib": ["ES2020", "DOM", "DOM.Iterable"],
+		"module": "ES2020", // Or "CommonJS" if targeting Node.js or need broader compatibility
+		"outDir": "dist", // Output directory for compiled files
+		"declaration": true, // Generate .d.ts files
+		"skipLibCheck": true,
+		"moduleResolution": "node", // Adjusted to "node" for compatibility with CommonJS/ESModules
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"esModuleInterop": true, // Ensure compatibility with ES modules
+		"allowSyntheticDefaultImports": true // Allow default imports from modules with no default export
+	},
+	"include": ["src"] // Ensure this covers all your TypeScript sources
+}
