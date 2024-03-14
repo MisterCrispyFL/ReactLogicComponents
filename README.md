@@ -10,7 +10,7 @@ Example:
 
 ```javascript
 <ShouldShow condition={listItems.length > 0}>
-	<ul>//List goes here.</ul>
+	<ul>List goes here.</ul>
 </ShouldShow>
 ```
 
@@ -22,8 +22,8 @@ Example:
 
 ```javascript
 <If condition={foo === "demo"}>
-	<If.Then>//DO something</If.Then>
-	<If.Else>//Do something else</If.Else>
+	<If.Then>DO something</If.Then>
+	<If.Else>Do something else</If.Else>
 </If>
 ```
 
@@ -35,9 +35,9 @@ Example:
 
 ```javascript
 <Switch value={foo}>
-	<Switch.Case value="bar">//Do something</Switch.Case>
-	<Switch.Case value="schnauzer">//Do something</Switch.Case>
-	<Switch.Case value="stratocaster">//Do something</Switch.Case>
-	<Switch.Default>//Nothing matched. Run this instead.</Switch.Default>
+	<Switch.Case value="bar">Do something</Switch.Case>
+	<Switch.Case value="schnauzer">Do something</Switch.Case>
+	<Switch.Case value="stratocaster">Do something</Switch.Case>
+	<Switch.Default>Nothing matched. Run this instead.</Switch.Default>
 </Switch>
 ```
