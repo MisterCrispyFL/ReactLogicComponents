@@ -9,9 +9,11 @@ A quick and simple hide/show component. Takes a condition boolean. If true, it s
 Example:
 
 ```javascript
+import { ShouldShow } from "react-logic-components";
+
 <ShouldShow condition={true}>
 	<h2>Shows and hides.</h2>
-</ShouldShow>
+</ShouldShow>;
 ```
 
 ### If/Then Component
@@ -21,6 +23,7 @@ It's If/Then/Else but in component form.
 Example:
 
 ```javascript
+import { If } from "react-logic-components";
 <If condition={true}>
 	<If.Then>
 		<h3>Condition is true.</h3>
@@ -28,7 +31,7 @@ Example:
 	<If.Else>
 		<h3>Condition is false.</h3>
 	</If.Else>
-</If>
+</If>;
 ```
 
 ### Switch
@@ -38,6 +41,8 @@ The big one. This is javascript switch but with components instead. Just like no
 Example:
 
 ```javascript
+import { Switch } from "react-logic-components";
+
 <Switch value="Cat">
 	<Switch.Case value="Cat">
 		<h3>It's a cat!</h3>
@@ -51,5 +56,5 @@ Example:
 	<Switch.Default>
 		<h3>I have no idea what that thing is.</h3>
 	</Switch.Default>
-</Switch>
+</Switch>;
 ```
