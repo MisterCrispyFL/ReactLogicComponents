@@ -1,5 +1,5 @@
 {
-	"name": "react-logic-components",
+	"name": "crispy-logic-components",
 	"version": "0.0.4",
 	"type": "module",
 	"main": "dist/index.js",
