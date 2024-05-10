@@ -1,7 +1,7 @@
 import React, { ReactElement, ReactNode } from "react";
 
 interface SwitchProps {
-	value: string;
+	value: string | number;
 	children: ReactNode;
 }
 
@@ -24,7 +24,7 @@ const Switch: React.FC<SwitchProps> & {
 };
 
 interface CaseProps {
-	value: string;
+	value: string | number;
 	children: ReactNode;
 }
 

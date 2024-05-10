@@ -23,7 +23,7 @@ type Props = {
 declare const ShouldShow: (props: Props) => string | number | boolean | Iterable<ReactNode> | react_jsx_runtime.JSX.Element | null | undefined;
 
 interface SwitchProps {
-    value: string;
+    value: string | number;
     children: ReactNode;
 }
 declare const Switch: React.FC<SwitchProps> & {
@@ -31,7 +31,7 @@ declare const Switch: React.FC<SwitchProps> & {
     Default: React.FC<DefaultProps>;
 };
 interface CaseProps {
-    value: string;
+    value: string | number;
     children: ReactNode;
 }
 interface DefaultProps {

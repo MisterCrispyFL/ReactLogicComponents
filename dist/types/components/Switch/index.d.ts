@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 interface SwitchProps {
-    value: string;
+    value: string | number;
     children: ReactNode;
 }
 declare const Switch: React.FC<SwitchProps> & {
@@ -8,7 +8,7 @@ declare const Switch: React.FC<SwitchProps> & {
     Default: React.FC<DefaultProps>;
 };
 interface CaseProps {
-    value: string;
+    value: string | number;
     children: ReactNode;
 }
 interface DefaultProps {
